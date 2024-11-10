@@ -46,7 +46,7 @@
 }
 @media screen and (max-width: 400px) {
   .model .container {
-    width: 100%;
+    width: 90%;
   }
   .model .close {
     right: 0;
