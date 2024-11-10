@@ -44,6 +44,14 @@
   background-color: #f4f2f2;
   overflow: hidden;
 }
+@media screen and (max-width: 500px) {
+  .model .container {
+    width: 80%;
+  }
+  .model .close {
+    right: 0;
+  }
+}
 .model .container h1,
 .model .container p {
   padding-left: 20px;
