@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 10px 15px;
+  margin-left: 30px;
+  border: none;
+  background-color: #2196f3;
+  cursor: pointer;
+  font-size: 25px;
+  &:hover {
+    background-color: #04aa6d;
+  }
+}
+.model {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(113, 113, 113, 0.8);
+}
+.model .close {
+  position: absolute;
+  right: 10px;
+
+  top: -5px;
+  font-size: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  &:hover {
+    background-color: transparent;
+    color: red;
+  }
+}
+.model .container {
+  width: 50%;
+  padding: 15px;
+  margin: 5% auto 15%;
+  border: 1px solid #ddd;
+  background-color: #f4f2f2;
+  overflow: hidden;
+}
+.model .container h1,
+.model .container p {
+  padding-left: 20px;
+}
+.model .container input[type="text"],
+.model .container input[type="password"] {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  margin: 5px 0 22px 0;
+  background-color: #d9d8d8;
+  &:focus {
+    background-color: #c3c3c3;
+  }
+}
+.model .container label {
+  font-size: 20px;
+}
+
+.model .container .cont .cancel,
+.model .container .cont .sign-Up {
+  width: calc(100% / 2);
+  float: left;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+}
+.model .container .cont .sign-Up {
+  background-color: #04aa6d;
+}
+.model .container .cont .cancel {
+  background-color: #f1182a;
+}
